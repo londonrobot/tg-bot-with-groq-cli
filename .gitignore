@@ -1,0 +1,43 @@
+# 🔐 Secrets / keys
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build / cache
+dist/
+build/
+.cache/
+coverage/
+
+# Optional: local database / files
+*.sqlite
+*.db
+
+# Telegram session files (если появятся)
+sessions/
